@@ -1,0 +1,120 @@
+.wrapper img{
+    width: 100% !important;
+    height: 120vh;
+    position: relative;
+    left: 2%;
+    top: 30px;
+}
+
+.box{
+    width: 110% !important;
+    height: 120vh;
+    background-color: #2EB875;
+    position: relative;
+ 
+    top: 30px;
+}
+
+.wrapper{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.box h1{
+    color: white;
+    width: 70% !important;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 900;
+   font-size: 3.8rem;
+   position: relative;
+   top: 20%;
+   left: 15%;
+}
+.box p{
+    color: white;
+    position: relative;
+    top: 23%;
+    left: 15%;
+}
+
+.images img{
+    width: 25% !important;
+    height: 10% !important;
+    margin-top: 20%;
+    position: relative;
+    left: 15%;
+}
+.google{
+  transform: translateY(10px) !important;
+}
+
+h3{
+    position: relative;
+    top: 15%;
+    left: 15%;
+    color: white;
+}
+
+.fa-arrow-right{
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 450px) {
+    .wrapper{
+        display: flex;
+        flex-direction: column;
+        width: 80% !important;
+    }
+
+    .box{
+        width: 125% !important;
+        left: 0 !important;
+        height: 80vh !important;
+
+    }
+    .box h1{
+        font-size: 2.7rem !important;
+        font-weight: 900 !important;
+        width: 70% !important;
+        position: relative !important;
+        top: 7% !important;
+        left: 10% !important;
+    }
+
+    .wrapper img{
+        width: 125% !important;
+        height: 40vh !important;
+        position: relative !important;
+        left: 0 !important ;
+        top: 30px !important ;
+    }
+
+
+    .box p{
+        color: white;
+        position: relative;
+        top: 15%;
+        left: 30%;
+        width: 50% !important;
+        font-size: 1rem;
+    }
+    
+  .images img{
+      width: 40% !important;
+      height: 2% !important;
+    position: relative !;
+    left: 10% !important;
+  }
+
+  h3{
+    position: relative;
+    top: 15%;
+    left: 15%;
+    color: white;
+    width: 70%;
+}
+
+}
