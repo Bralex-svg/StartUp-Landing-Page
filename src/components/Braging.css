@@ -49,7 +49,7 @@
 @media screen and (max-width: 480px) {
     .Braging{
         position: absolute;
-        top: 332%;
+        top: 320%;
         display: flex;
         flex-direction: column;
         width: 70%;

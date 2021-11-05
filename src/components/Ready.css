@@ -60,7 +60,7 @@ h4{
         background-color: rgb(46,184,117);
         width: 100%;
         height: 40vh;
-        margin-top: 130%;
+        margin-top: 150%;
    
     
     }
@@ -85,7 +85,7 @@ h4{
 
 .detail{
     position: absolute;
-    top: 400%;
+    top: 390%;
  /* transform: translateX(-20%); */
 left: 90px;
  
