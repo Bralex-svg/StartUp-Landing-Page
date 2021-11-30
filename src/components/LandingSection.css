@@ -101,7 +101,7 @@ h3{
 
     .wrapper img{
         width: 125% !important;
-        height: 40vh !important;
+        height: 50vh !important;
         position: relative !important;
         left: 0 !important ;
         top: 30px !important ;
@@ -111,9 +111,9 @@ h3{
     .box p{
         color: white;
         position: relative;
-        top: 15%;
+        top: 10%;
         left: 30%;
-        width: 50% !important;
+        width: 60% !important;
         font-size: 1rem;
     }
     
@@ -122,14 +122,15 @@ h3{
       height: 2% !important;
     position: relative !;
     left: 10% !important;
+    top: 10% !important;
   }
 
   h3{
     position: relative;
-    top: 15%;
-    left: 15%;
+    top: 7%;
+    left: 10%;
     color: white;
-    width: 70%;
+    width: 90%;
 }
 
 .google{

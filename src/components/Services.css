@@ -82,8 +82,9 @@
     
 
 .wrap4 h2{
-    transform: translateY(-90%);
+    transform: translateY(-100%) !important;
     margin-left: 20px;
+    width: 130% !important;
 }
 .wrap4 > p{
     transform: translateY(-110%);
@@ -93,26 +94,28 @@
 
     .wrap-service h2{
         font-size: 1.3rem;
-        width: 90%;
+        width: 140% !important;
     }
 
     .wrap-service p{
         font-size: 1rem;
-        width: 140% !important;
+        width: 230% !important;
         line-height: 22px;
     }
 
     .wrap3 h2{
-        transform: translateY(-120%);
+        transform: translateY(-130%);
         margin-left: 20px;
+        width: 150% !important;
     }
     .wrap3 p{
-        transform: translateY(-180%);
+        transform: translateY(-150%);
         margin-left: 20px;
         width: 150% !important;
     }
 
     .wrap4 h2{
-        width: 120% !important;
+        width: 150% !important;
+        transform: translateY(-130%);
     }
 }

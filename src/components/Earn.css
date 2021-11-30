@@ -74,8 +74,8 @@
     }
 
     .details h1{
-        width: 110% !important;
-        font-size: 1.5rem;
+        width: 150% !important;
+        font-size: 1.3rem;
     }
 
     .details p{
@@ -88,8 +88,8 @@
         position: absolute;
         left: 15%;
         margin-top: 10%;
-        width: 70%;
-        padding: 15px 25px;
+        width: 80%;
+        padding: 10px 25px !important;
         border-color: white;
         border-radius: 50px;
         cursor: pointer;
