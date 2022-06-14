@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&family=Poppins:wght@500;700&display=swap');
+
+.planeContainer{
+    margin-top: 10%;
+}
+
+.boost{
+    margin-left: 20%;
+    transform: translateY(20%);
+    font-weight: normal;
+}
+
+.agencies{
+    font-size: 2.2rem;
+    width: 110%;
+    margin-bottom: 30px;
+    color: #172331;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.create{
+    font-size: 1.2rem;
+    line-height: 35px;
+    color: #7c8897;
+}
+
+
+li{
+    list-style: none;
+    
+}
+
+.listItems{
+    margin-top: 10%;
+}
+
+a{
+    color: #8D448B;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.arrow{
+    color: #8D448B !important;
+    fill: red;
+  transform: translateY(20%);
+}
+.learn{
+    margin-top: 10%;
+}
+
+li span{
+    font-size: 1.3rem;
+    margin-left: 5%;
+    font-family: 'DM Sans', sans-serif;
+    color: #25306c;
+}
+.checkMark3{
+    margin-top: 5%;
+   
+}
+
+
+@media screen and (max-width: 450px) {
+.plane {
+        width: 110%;
+        transform: translateY(140%);
+    }
+  .agencies {
+      font-size: 1.3rem;
+      width: 115%;
+      margin-left: -18%;
+      transform: translateY(-600%);
+  }
+
+  .ninja {
+      margin-left: 20%;
+  }
+
+ .create {
+     font-size: 1rem;
+     margin-left: -10%;
+     width: 100%;
+        transform: translateY(-360%);
+ }
+li span {
+    font-size: 1rem;
+   
+    font-family: 'DM Sans', sans-serif;
+    color: #25306c;
+}
+.listItems {
+    margin-top: 10%;
+    margin-left: -15%;
+        transform: translateY(-350%);
+}
+
+.learn{
+        transform: translateY(-1280%);
+        margin-left: -12%;
+}
+}

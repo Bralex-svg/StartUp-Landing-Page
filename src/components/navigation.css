@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.logo{
+    margin-left: -10%;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin-left: -50%;
+    width: 75%;
+}
+
+.home,
+.service,
+.testimonial,
+.news,
+.register{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    cursor: pointer !important;
+}
+
+.register{
+    transform: translateX(70%) !important;
+    cursor: pointer;
+    border: 1px solid #8D448B;
+    color: #8D448B;
+}
+
+.register:hover{
+    background-color: #8D448B;
+    color: #fff;
+    transition: 0.8s ease-in-out;
+}

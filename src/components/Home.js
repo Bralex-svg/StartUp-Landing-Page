@@ -1,23 +1,16 @@
-import React from 'react'
-import Earn from './Earn'
-import LandingSection from './LandingSection'
-import Services from './Services'
-import Map from './Map'
-import Braging from './Braging'
-import Ready from './Ready'
-
+import React from "react";
+import Banner from "./Banner";
+import Bragging from "./Bragging";
+import Features from "./Features";
 
 function Home() {
-    return (
-        <div>
-            <LandingSection />
-            <Earn />
-            <Services />
-            <Map />
-            <Braging />
-            <Ready />
-        </div>
-    )
+  return (
+    <>
+      <Banner />
+      <Features />
+      <Bragging />
+    </>
+  );
 }
 
-export default Home
+export default Home;
