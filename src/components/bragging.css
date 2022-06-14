@@ -77,12 +77,12 @@ li span{
       font-size: 1.3rem;
       width: 115%;
       margin-left: -18%;
-      transform: translateY(-600%);
+      transform: translateY(-630%);
   }
 
-  .ninja {
+  /* .ninja {
       margin-left: 20%;
-  }
+  } */
 
  .create {
      font-size: 1rem;
