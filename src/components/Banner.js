@@ -5,6 +5,8 @@ import { Button, Grid, Typography } from "@material-ui/core";
 import Paypal from "../assets/paypal.png";
 import Google from "../assets/google.png";
 import Dropbox from "../assets/dropbox.png";
+import Typed from "react-typed";
+
 function Banner() {
   return (
     <>
@@ -12,9 +14,14 @@ function Banner() {
         <Grid container>
           <Grid className="great" md={4} xs={10}>
             <Typography>
-              <h1 className="h1">
-                Great Software is built with amazing developers
-              </h1>
+              <h1 className="h1">Great Software is built with amazing</h1>
+              <Typed
+                className="type"
+                strings={["Developers", "Engineers", "Desingners"]}
+                typeSpeed={120}
+                backSpeed={140}
+                loop
+              />
             </Typography>
             <Typography>
               <p className="build">

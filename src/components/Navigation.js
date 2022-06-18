@@ -1,34 +1,36 @@
-import React, { useState } from "react";
-import { Link } from "react-router-dom";
+import React, { useRef } from "react";
 import "./navigation.css";
-import Logo from "../assets/logo.svg";
+import { FaBars, FaTimes } from "react-icons/fa";
+import Logo from "../assets/logo.png";
 function Navbar() {
+  const navRef = useRef();
+
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
   return (
-    <>
-      <nav className="navbar">
-        <img src={Logo} className="logo" alt="logo" />
-        <ul className="nav-links">
-          <Link to="/home" className="home">
-            <li>Home</li>
-          </Link>
-          <Link to="/service" className="service">
-            <li>Service</li>
-          </Link>
-
-          <Link to="/service" className="testimonial">
-            <li>Testimonial</li>
-          </Link>
-
-          <Link to="/news" className="news">
-            <li>News</li>
-          </Link>
-
-          <Link to="/register" className="register">
-            <li>Register Now</li>
-          </Link>
-        </ul>
-      </nav>
-    </>
+    <div>
+      <header>
+        <img className="logo" src={Logo} alt="logo" />
+        <nav ref={navRef}>
+          <a href="#home">Home</a>
+          <a href="#home">Services</a>
+          <a href="#home">Testimonials</a>
+          <a href="#home">News</a>
+          <button className="BTN">REGISTER NOW</button>
+          {/* <button> */}
+          <FaTimes
+            size={30}
+            className="nav-btn nav-close-btn"
+            onClick={showNavbar}
+          />
+          {/* </button> */}
+        </nav>
+        {/* <button> */}
+        <FaBars size={30} className="nav-btn" onClick={showNavbar} />
+        {/* </button> */}
+      </header>
+    </div>
   );
 }
 

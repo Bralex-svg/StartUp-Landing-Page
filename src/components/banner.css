@@ -14,11 +14,19 @@
 .h1{
     width: 120%;
     font-size: 4rem;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     font-family: 'DM Sans', sans-serif;
     color: #0F2137;
 }
 
+.type{
+    width: 120%;
+    font-weight: bold;
+        font-size: 4rem;
+        margin-bottom: 20px;
+        font-family: 'DM Sans', sans-serif;
+        color: #0F2137;
+}
 .build{
     width: 80%;
     line-height: 40px;
@@ -82,6 +90,14 @@ input[type = "text"]:focus{
         margin-left: -10%;
     }
 
+    .type{
+        width: 90%;
+     /* position: absolute !important;
+     top: 30% !important; */
+        font-size: 1.6rem;
+        margin-left: -10%;
+        font-weight: bold;
+    }
     .ban{
         margin-left: -30%;
         transform: translateY(30%);

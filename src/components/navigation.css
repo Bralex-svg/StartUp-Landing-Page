@@ -2,49 +2,124 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
+
 
 .logo{
-    margin-left: -10%;
+    width: 20%;
 }
 
-.navbar{
+header{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 75px;
+  
+    justify-content: space-between;
+    height: 80px;
+    width: 100%;
+    padding: 1rem 2rem;
+    background-color: white;
+    /* color: gray; */
 }
 
-.nav-links{
-    display: flex;
-    justify-content: flex-end;
-    list-style: none;
-    margin-left: -50%;
-    width: 75%;
-}
-
-.home,
-.service,
-.testimonial,
-.news,
-.register{
+nav a{
+    margin: 0 2rem;
+    /* color: gray; */
     text-decoration: none;
-    font-size: 20px;
-    padding: 10px 20px;
-    margin: 0 10px;
-    cursor: pointer !important;
+
 }
 
-.register{
-    transform: translateX(70%) !important;
-    cursor: pointer;
-    border: 1px solid #8D448B;
+.BTN{
+    padding: 15px 20px;
+    background-color: transparent;
+    border: 3px solid #8D448B;
     color: #8D448B;
+    cursor: pointer;
+font-weight: bold;
+    transform: translateX(90%);
+border-radius: 5px;
 }
 
-.register:hover{
+.BTN:hover{
     background-color: #8D448B;
-    color: #fff;
-    transition: 0.8s ease-in-out;
+    color: white;
+    transition: 1s;
+}
+
+nav a:hover{
+    color: blue;
+}
+button{
+    display: hidden;
+}
+
+header .nav-btn{
+    padding: 5px;
+    cursor: pointer;
+    /* background: transparent; */
+    border: none;
+    outline: none;
+    /* color: gray; */
+    display: hidden;
+    /* visibility: hidden; */
+    opacity: 0;
+}
+
+@media only screen and (max-width: 1024px)  {
+    header .nav-btn{
+      display: block;
+        opacity: 1;
+    }
+
+    nav a{
+        color: white;
+    }
+
+ header nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+    background-color: rgb(110, 107, 107);
+    color: white;
+    transition: 1s;
+    transform: translateY(-100vh);
+    z-index: 1;
+ }
+ a{
+    color: white;
+ }
+
+ header .responsive_nav{
+    transform: none;
+ }
+
+.logo{
+    width: 70%;
+}
+
+nav .nav-close-btn{
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+}
+
+.BTN {
+    padding: 15px 20px;
+    background-color: #8D448B;
+    border: 3px solid #8D448B;
+    color: #ffffff;
+    cursor: pointer;
+    font-weight: bold;
+    transform: translateX(5%);
+    border-radius: 5px;
+}
+
+nav a{
+    font-size: 1.5rem;
+}
 }
