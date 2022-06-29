@@ -17,21 +17,26 @@
     margin-bottom: 10px;
     font-family: 'DM Sans', sans-serif;
     color: #0F2137;
+    font-weight: bold;
+        line-height: 90px;
 }
 
 .type{
+    line-height: 70px;
     width: 120%;
     font-weight: bold;
         font-size: 4rem;
         margin-bottom: 20px;
         font-family: 'DM Sans', sans-serif;
         color: #0F2137;
+       /* padding-left: 30px; */
 }
 .build{
     width: 80%;
     line-height: 40px;
     font-size: 1.1rem;
     margin-bottom: 5%;
+    padding: 20px 0;
 }
 
 .bannerDiv{
@@ -88,10 +93,12 @@ input[type = "text"]:focus{
         font-size: 1.6rem;
         margin-bottom: 20px;
         margin-left: -10%;
+        line-height: 40px;
     }
 
     .type{
         width: 90%;
+        line-height: 1px !important;
      /* position: absolute !important;
      top: 30% !important; */
         font-size: 1.6rem;

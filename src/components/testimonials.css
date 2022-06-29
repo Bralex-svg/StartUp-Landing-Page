@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.lead{
+    width: 28% !important;
+    text-align: center;
+    margin-left: 35%;
+    font-size: 2rem;
+     
+}
+
+.test{
+    margin-top: 5%;
+}
+
+.we{
+    width:45%;
+    text-align: center;
+        margin-left: 30%;
+    padding: 20px 0;
+        font-weight: normal;
+        font-size: 1.3rem;
+}
+
+.explore{
+    color: #8D448B;
+    margin-left: 45%;
+   
+}
+
+
+
+.react-player{
+    margin-left: 15%;
+    border-radius: 10%;
+}
+
+.player-wrapper{
+    margin-top: 5%;
+}
+
+@media screen and (max-width:450px) {
+.lead {
+        width: 58% !important;
+       margin-left: 30%;
+        font-size: 1.3rem;
+
+    }
+
+    .test{
+        margin-top: 50%;
+        margin-left: -30%;
+    }
+
+    .we{
+width: 70%;
+font-size: 0.9rem;
+margin-left: 25%;
+    }
+}
+
